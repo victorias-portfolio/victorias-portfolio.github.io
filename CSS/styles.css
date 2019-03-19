@@ -19,7 +19,7 @@ h2  {
 
 h3  {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   color: #262626;
   border-bottom: 3px solid #009874;
   display: inline-block;
@@ -62,6 +62,7 @@ header  {
   text-transform: lowercase;
   line-height: 80px;
   border-bottom: 0px solid #009874;
+  font-size: 1.5rem;
 }
 
 .nav-item a:hover{
@@ -93,7 +94,7 @@ section {
 .blurb h2{
   font-weight: 600;
   line-height: 23px;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
 #titles {
@@ -106,6 +107,46 @@ section {
   font-size: 30px;
   margin-top: 60px;
   margin-bottom: 0;
+}
+
+.construction {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  align-content: top;
+  overflow: hidden;
+  margin: 0 12% 0 0;
+  text-align: left;
+  /* height: 40rem; */
+}
+
+.construction h3{
+  border: none;
+  margin: 0;
+  line-height: normal;
+  display: block;
+  padding: 0.5rem 0;
+
+}
+
+.construction figure{
+  /* grid-row-start: 2; */
+
+}
+
+.construction img{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.construction figcaption,a{
+  font-size: 0.75rem;
+  line-height: normal;
+}
+
+.construction a:hover{
+  color: darkseagreen;
 }
 
 .work {
