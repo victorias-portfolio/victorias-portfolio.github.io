@@ -1,0 +1,180 @@
+body  {
+  margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  font-size: 72px;
+  color: #262626;
+  max-width: 79%;
+}
+
+h2  {
+  font-weight: 900;
+  font-size: 23px;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+h3  {
+  font-weight: 600;
+  font-size: 20px;
+  color: #262626;
+  border-bottom: 3px solid #009874;
+  display: inline-block;
+}
+
+p   {
+  font-weight: 400;
+  font-size: 16px;
+  color: #262626;
+}
+
+a   {
+  font-weight: 600;
+  font-size: 23px;
+  color: #565656;
+}
+
+img   {
+  vertical-align: middle;
+}
+
+header  {
+  height: 80px;
+  margin: 0;
+}
+
+.nav-list {
+  text-align: right;
+  margin: 0 10% 0 0;
+}
+
+.nav-item {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-item a{
+  text-decoration: none;
+  text-transform: lowercase;
+  line-height: 80px;
+  border-bottom: 0px solid #009874;
+}
+
+.nav-item a:hover{
+  border-bottom: 3px solid #009874;
+}
+
+.nav-item img{
+  max-width: 42px;
+  float: left;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+section {
+  margin-left: 12%;
+}
+
+.blurb {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 85px;
+}
+
+.blurb h1{
+  margin-bottom: 30px;
+}
+
+
+.blurb h2{
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 30px;
+}
+
+#titles {
+  margin-left: 12%;
+  border-bottom: 1px solid #ccc;
+  max-width: 75%;
+}
+
+#titles h2{
+  font-size: 30px;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.work {
+  max-width: 79%;
+  margin-top: 32px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.project {
+  width: 44%;
+  background-color: #fafafa;
+  margin-right: 55px;
+  margin-bottom: 56px;
+}
+
+.project h2,p{
+  padding: 16px 16px 0 16px;
+  margin: 0;
+}
+
+.project  a{
+  padding: 16px 16px 0px 16px;
+  line-height:  40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #262626;
+  text-decoration: none;
+  float: right;
+}
+
+.project  img{
+  max-width: 100%;
+  height: auto;
+  padding-top: 8px;
+}
+
+#build-a-guild {
+  background-color: #96E2C9;
+  flex: auto;
+}
+
+#polished {
+  background-color: #AFAFD1;
+  flex: auto;
+}
+
+#fort-yurt {
+  background-color: #F5CD65;
+  flex: auto;
+}
+
+#daily-ui {
+  background-color: #F5CABF;
+  flex: auto;
+}
+
+
+footer  {
+  margin-left: 12%;
+  margin-top: 20px;
+  padding: 25px 0px;
+  max-width: 74%;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+footer  h2,p{
+  margin: 0;
+}
