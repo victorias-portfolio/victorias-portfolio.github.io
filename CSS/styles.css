@@ -1,7 +1,10 @@
 body  {
   margin: 0;
-    font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  background: linear-gradient(90deg, #fafafa 20px, transparent 1%) center, linear-gradient(#fafafa 20px, transparent 1%) center, #dadada;
+background-size: 22px 22px;
 }
+
 h1 {
   font-family: 'Merriweather', serif;
   font-weight: 400;
@@ -83,11 +86,19 @@ section {
 .blurb {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 85px;
+  line-height: 6.5rem;
 }
 
 .blurb h1{
   margin-bottom: 30px;
+  /* background-color: #fafafa; */
+  /* border: 0.3rem solid black; */
+  padding: 1rem;
+}
+
+.blurb em{
+  font-style: normal;
+  border-bottom: 0.75rem solid #009874;
 }
 
 
@@ -100,7 +111,7 @@ section {
 #titles {
   margin-left: 12%;
   border-bottom: 1px solid #ccc;
-  max-width: 75%;
+  max-width: 79%;
 }
 
 #titles h2{
@@ -140,9 +151,15 @@ section {
   margin: 0;
 }
 
-.construction figcaption,a{
+.construction figcaption{
   font-size: 0.75rem;
   line-height: normal;
+}
+
+figcaption p,a{
+  color: #757575;
+  padding: 0;
+  font-size: 0.75rem;
 }
 
 .construction a:hover{
@@ -151,17 +168,21 @@ section {
 
 .work {
   max-width: 79%;
-  margin-top: 32px;
-  display: inline-flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* display: inline-flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: flex-start; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  /* background-color: #fafafa; */
 }
 
 .project {
-  width: 44%;
+  /* width: 44%; */
   background-color: #fafafa;
-  margin-right: 55px;
-  margin-bottom: 56px;
+  /* margin: 0 4rem 4rem 0; */
 }
 
 .project h2,p{
@@ -211,11 +232,18 @@ footer  {
   margin-left: 12%;
   margin-top: 20px;
   padding: 25px 0px;
-  max-width: 74%;
+  max-width: 79%;
   text-align: center;
   border-top: 1px solid #ccc;
 }
 
 footer  h2,p{
   margin: 0;
+}
+
+@media screen and (max-device-width: 580px) {
+  .work {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
