@@ -98,7 +98,10 @@ section {
 
 .blurb em{
   font-style: normal;
-  border-bottom: 0.75rem solid #009874;
+  display: inline;
+  background-color: #ffcc00;
+  padding: 0 0.5rem;
+
 }
 
 
