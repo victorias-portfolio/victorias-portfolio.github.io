@@ -16,7 +16,7 @@
 ### Javascript
 
 * Parallax
-* Scroll progression bar
+* Scroll progression bar - [here] (https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3)
 
 ### Design
 
