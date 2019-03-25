@@ -12,11 +12,13 @@
 * Change px to rem
 * Add media queries for responsiveness
 * fix cards
+  * image position, syntax
 
 ### Javascript
 
 * Parallax
 * Scroll progression bar - [Here](https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3) and [here](https://css-tricks.com/reading-position-indicator/) and [here](https://codepen.io/hkfoster/pen/atCzI)
+* Do something with header on scroll
 
 ### Design
 
@@ -29,3 +31,7 @@
 * About
 * Contact
 * DailyUI
+
+### Issues
+
+* logo underline
