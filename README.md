@@ -16,8 +16,7 @@
 ### Javascript
 
 * Parallax
-* Scroll progression bar - [here] (https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3)
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* Scroll progression bar - [Here](https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3)
 
 ### Design
 
