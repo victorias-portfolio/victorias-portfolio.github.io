@@ -87,7 +87,7 @@ header  {
   border-bottom: 3px solid #009874;
 }
 
-.nav-item img{
+.nav-logo img{
   max-width: 42px;
   float: left;
   margin-left: 1rem;
@@ -304,9 +304,9 @@ button:hover {
 
 
 footer  {
-  margin-top: 20px;
-  padding: 25px 0px;
-  text-align: center;
+  margin-top: 2rem;
+  padding: 1.56rem 2.56rem;
+  text-align: left;
   background-color: #18e291;
 }
 
