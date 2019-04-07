@@ -71,6 +71,10 @@ header  {
 .nav-item a{
   text-decoration: none;
   text-transform: lowercase;
+  font-family: 'Asap', helvetica, sans-serif;
+  letter-spacing: 0.12rem;
+  /* font-weight: 400; */
+  color: var(--color-text);
   line-height: 5rem;
   border-bottom: 0 solid var(--color-highlight);
   font-size: 1.5rem;
@@ -296,7 +300,7 @@ footer  h2,p{
   }
 
   body {
-    font-family: 'Asap', sans-serif;
+    font-family: 'Nunito Sans', helvetica, sans-serif;
   }
 
   #wrapper {
