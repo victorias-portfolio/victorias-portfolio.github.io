@@ -8,6 +8,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body  {
@@ -49,6 +50,11 @@ a   {
 
 img   {
   vertical-align: bottom;
+}
+
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
 }
 
 header  {
@@ -94,11 +100,6 @@ header  {
   max-width: 2.63rem;
   float: left;
   margin: 1.25rem 0 0 1rem;
-}
-
-#wrapper {
-  width: 80vw;
-  margin: 0 auto;
 }
 
 
@@ -262,7 +263,6 @@ button:hover {
 
 footer  {
   margin-top: 2rem;
-  padding: 1.56rem 2.56rem;
   text-align: left;
   background-color: var(--color-highlight);
 }
@@ -270,6 +270,22 @@ footer  {
 footer  h2,p{
   margin: 0;
   color: var(--color-text);
+}
+
+.footer-wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+
+.far,.fas {
+  color: var(--color-bg);
+  font-size: 5rem;
+  padding: 1.5rem;
 }
 
 @media screen and (min-width: 40.01rem) {
