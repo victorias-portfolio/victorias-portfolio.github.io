@@ -1,7 +1,15 @@
-var fixed = document.getElementById('fixed');
+$(function() {
 
-fixed.addEventListener('touchmove', function(e) {
+    var fixed = document.getElementById('fixed'), overflow;
 
-        e.preventDefault();
+    $(window).on('load resize', function() {
 
-}, true);
+    overflow = fixed.scrollHeight-$('#fixed').height();
+    });
+
+    fixed.on('touchmove', function() {
+
+    if (overflow) return true;
+    else return false;
+    });
+});
