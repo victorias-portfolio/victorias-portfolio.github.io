@@ -103,6 +103,12 @@ header  {
   margin: 1.25rem 0 0 1rem;
 }
 
+.emoji {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+}
+
 
 .blurb {
   margin-top: 0;
@@ -115,6 +121,7 @@ header  {
 .blurb h1{
   margin: 0 0 1.8rem 0;
   padding: 1rem;
+  position: relative;
 }
 
 .blurb em{
