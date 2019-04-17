@@ -107,6 +107,7 @@ header  {
   position: absolute;
   top: 1rem;
   left: 0;
+  overflow-x: hidden;
 }
 
 
@@ -116,6 +117,7 @@ header  {
   line-height: 6.5rem;
   background: linear-gradient(90deg, var(--color-bg) 1.25rem, transparent 1%) center, linear-gradient(var(--color-bg) 1.25rem, transparent 1%) center, var(--color-dots);
   background-size: 1.375rem 1.375rem;
+  overflow-x: hidden;
 }
 
 .blurb h1{

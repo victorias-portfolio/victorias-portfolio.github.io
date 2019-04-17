@@ -5,7 +5,7 @@ var elCloseBtn = document.getElementById('closeBtn');
 var container = document.getElementById('container');
 var windowHeight = window.innerHeight;
 var windowWidth = window.innerWidth;
-var scrollArea = 1850 - windowHeight;
+var scrollArea = 2550 - windowHeight;
 var emoji = document.getElementsByClassName('emoji')[0];
 
 elAboutLink.addEventListener('click', function(e){
