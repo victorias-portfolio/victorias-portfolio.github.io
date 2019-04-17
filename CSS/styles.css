@@ -500,6 +500,39 @@ footer  h2,p{
     opacity: 1;
   }
 
+  #aboutLink {
+    display: none;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-top: 0.1rem solid var(--color-highlight);
+    margin: 1rem auto;
+  }
+
+  .myface {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .myface img{
+    padding: 0;
+    max-width: 75%;
+    align-self: center;
+  }
+
+  #closeBtn {
+    display: none;
+  }
+
+
+
   .cards {
     display: grid;
     grid-template-columns: 1fr;
