@@ -1,15 +1,11 @@
-$(function() {
+var elAboutLink = document.getElementById('aboutLink');
+var elAbout = document.getElementById('about');
+var elCloseBtn = document.getElementById('closeBtn');
 
-    var fixed = document.getElementById('fixed'), overflow;
+elAboutLink.addEventListener('click', function(e){
+  elAbout.classList.toggle('showabout');
+});
 
-    $(window).on('load resize', function() {
-
-    overflow = fixed.scrollHeight-$('#fixed').height();
-    });
-
-    fixed.on('touchmove', function() {
-
-    if (overflow) return true;
-    else return false;
-    });
+elCloseBtn.addEventListener('click', function(e){
+  elAbout.classList.toggle('showabout');
 });

@@ -16,7 +16,6 @@ body  {
   font-family: 'Nunito Sans', sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
-  overflow-x: hidden;
 }
 
 h1 {
@@ -87,6 +86,7 @@ header  {
   font-size: 1.5rem;
   padding: 0;
   margin: 0 1rem;
+  transition: all 0.3s ease;
 }
 
 .nav-item a:hover{
@@ -170,6 +170,41 @@ figcaption p,a{
 }
 
 
+.about {
+  display: none;
+  align-items: center;
+  align-content: center;
+  border-top: 0.1rem solid var(--color-highlight);
+  margin: 1rem auto;
+}
+
+.aboutme {
+  padding: 1rem;
+}
+
+.aboutme h4{
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.myface img{
+  border-radius: 34rem;
+  max-height: 18rem;
+  float: right;
+  padding: 2rem;
+}
+
+.showabout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.showabout .about {
+  transition: all 0.5s ease;
+}
+
+
 #titles {
   border-bottom: 0.1rem solid var(--color-highlight);
 }
@@ -192,8 +227,12 @@ figcaption p,a{
   grid-template-columns: 1fr 1fr; */
 }
 
-.project h2,p{
+.project h2{
   padding: 1rem 1rem 0 1rem;
+}
+
+.project p{
+  padding: 0.5rem 1rem;
 }
 
 .project  a{
@@ -244,14 +283,14 @@ width: 10.5rem;
 border-radius: 2.5rem;
 background: #fff;
 border: 2px solid var(--color-highlight);
-color: var(--color-highlight);
+color: var(--color-text);
 letter-spacing: 0.03rem;
 transition: all 0.25s ease;
 }
 
 button a{
   text-decoration: none;
-  color: var(--color-highlight);
+  color: var(--color-text);
   padding: 1rem;
   font-size: 1rem;
 }
@@ -288,6 +327,31 @@ footer  h2,p{
   color: var(--color-bg);
   font-size: 5rem;
   padding: 1.5rem 0;
+}
+
+.footer-b p{
+  font-size: 1.5rem;
+}
+
+.footer-b a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0;
+  font-weight: bolder;
+  color: var(--color-text);
+  border-bottom: 0.1rem solid var(--color-highlight);
+  transition: all 0.3s ease;
+}
+
+.footer-b a:hover {
+  border-bottom: 0.1rem solid var(--color-text);
+}
+
+
+
+.footer-b em{
+  font-style: normal;
+  font-weight: 900;
 }
 
 @media screen and (min-width: 50.01rem) {
@@ -440,5 +504,52 @@ footer  h2,p{
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  /* .footer-b {
+    overflow: hidden;
+  } */
+
+  .footer-wrapper {
+    max-width: 80%;
+    padding: 1.5rem 1rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr;
+    /* align-items: center; */
+    /* overflow: wrap; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    text-align: center;
+  }
+
+  .far,.fas {
+    color: var(--color-bg);
+    font-size: 3rem;
+    padding: 0.5rem 0;
+  }
+
+  .footer-a {
+    padding: 0.5rem;
+    margin: auto 0;
+    /* display: none; */
+  }
+
+  .footer-b {
+    overflow: wrap;
+    text-align: left;
+    /* max-width: 100vh; */
+  }
+
+  .footer-b p{
+    font-size: 1rem;
+    /* word-break: break-all; */
+    /* word-wrap: break-word; */
+    /* max-width: 100%; */
+  }
+
+  .footer-b a{
+    font-size: 1rem;
+  }
+
 
 }
