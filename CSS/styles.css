@@ -413,7 +413,7 @@ footer  h2,p{
     height: 2.81rem;
     top: 1.6rem;
     right: 1.25rem;
-    z-index: 5;
+    z-index: 9999;
   }
 
   .hamburger div {
@@ -424,6 +424,7 @@ footer  h2,p{
     background-color: var(--color-highlight);
     margin-top: 0.44rem;
     transition: all 0.3s ease-in-out;
+    z-index: 999;
   }
 
   #toggle {
@@ -469,6 +470,7 @@ footer  h2,p{
     bottom: 0;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    z-index: 5;
   }
 
   .nav-wrap .nav {
@@ -589,6 +591,10 @@ footer  h2,p{
 
   .footer-b a{
     font-size: 1rem;
+  }
+
+  .emoji {
+    position: relative;
   }
 
 
